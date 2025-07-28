@@ -13,6 +13,7 @@ public class ContaTerminal {
         var saldoInicial = scanner.nextDouble();
         System.out.println("Conta criada com sucesso!");
         System.out.printf("Olá, %s! Sua conta na agência %s, numero %s, foi criada com sucesso. Você possui um saldo de R$ %s, já disponível para saque.\n", nomeCliente, agencia, numeroConta, saldoInicial);
+        scanner.close();
         /*
          * TODOs:
          * 1. Conhecer e importar a classe Scanner;
