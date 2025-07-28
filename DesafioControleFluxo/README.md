@@ -1,18 +1,5 @@
-## Getting Started
+# Desafio Controle de Fluxo
+Desafio proposto no Bootcamp Santander - Back-end JAVA, realizado através da plataforma DIO, em 2025.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Sobre o desafio
+A proposta apresentada para o desafio foi a criação de um contador numérico, utilizando dois número inteiros como parâmetro para contagem. O desafio tinha como intenção o exercício de utilização das estruturas if (estrutura condicional) e for (estrutura de repetição), além do tratamento de exceções dentro do código.
