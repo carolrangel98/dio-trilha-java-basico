@@ -12,7 +12,8 @@ Desenvolvimento de simulação de funcionalidades de um aparelho iPhone, utiliza
 classDiagram
     class Iphone {
         +String numero
-        +String gender
+        +String musica
+        +String url
     }
     class AparelhoTelefonico {
         +String numero
