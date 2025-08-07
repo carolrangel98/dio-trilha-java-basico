@@ -1,18 +1,39 @@
-## Desafio de Projeto - iPhone
+# Desafio de Projeto - iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido para o Bootcamp Santander - Back-end JAVA, realizado através da DIO, em 2025.
 
-## Folder Structure
+## Sobre o projeto
 
-The workspace contains two folders by default, where:
+Desenvolvimento de simulação de funcionalidades de um aparelho iPhone, utilizando interfaces Java e suas implementações em classes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## UML do Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```mermaid
+classDiagram
+    class Iphone {
+        +String numero
+        +String gender
+    }
+    class AparelhoTelefonico {
+        +String numero
+        +ligar(String numero)
+        +Atender()
+        +iniciarCorreioVoz()
+    }
+    class ReprodutorMusical {
+        +String musica
+        +tocarMusica()
+        +pausarMusica()
+        +selecionarMusica(String musica)
+    }
+    class NavegadorInternet {
+        +String url
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+    
+    Iphone <|-- AparelhoTelefonico
+    Iphone <|-- ReprodutorMusical
+    Iphone <|-- NavegadorInternet
+    ```
